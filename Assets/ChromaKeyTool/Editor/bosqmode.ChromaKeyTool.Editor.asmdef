@@ -1,0 +1,17 @@
+{
+    "name": "bosqmode.ChromaKeyTool.Editor",
+    "references": [
+        "GUID:6d1a5781715ebe047b7577ffaca2e795"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
