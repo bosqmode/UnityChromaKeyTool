@@ -73,6 +73,9 @@ Basic chroma keying operation: attempts to mask out the colors in range of
 ### Operation ERODE_ALPHA
 Erodes/Shrinks the alpha channel of the texture by "Erode Amount".
 
+### Operation BLUR_ALPHA
+Blurs the alpha channel by "Blur Size".
+
 ## Acknowledgments
 
 * https://sensing.konicaminolta.us/us/blog/identifying-color-differences-using-l-a-b-or-l-c-h-coordinates/
