@@ -55,6 +55,8 @@ namespace bosqmode.ChromaKeyTool
                 case OperationType.BLUR_ALPHA:
                     DrawBlurInspector();
                     break;
+                case OperationType.DESPILL:
+                    break;
                 default:
                     DrawChromaInspector();
                     break;

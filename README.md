@@ -3,7 +3,6 @@
 A toolset for greenscreen/chroma keying in Unity.
 
 ![gif](https://i.imgur.com/cQbKbZp.gif)
-
 ### Requirements
 
 Win64, Unity 2019.4.1f1+ (might work with older ones, just not tested with)
@@ -51,6 +50,8 @@ public class TextureSource : BaseTextureSource
 }
 ```
 
+![png](https://i.imgur.com/nyNGRfq.png)
+
 ## BlitOperation.cs / operations
 All of the processing happens via this/these components.
 
@@ -75,6 +76,9 @@ Erodes/Shrinks the alpha channel of the texture by "Erode Amount".
 
 ### Operation BLUR_ALPHA
 Blurs the alpha channel by "Blur Size".
+
+### Operation DESPILL
+Average despill of green channel.
 
 ## Acknowledgments
 

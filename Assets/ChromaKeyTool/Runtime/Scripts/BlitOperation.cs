@@ -70,6 +70,9 @@ namespace bosqmode.ChromaKeyTool
                 case OperationType.BLUR_ALPHA:
                     opmat = Resources.Load<Material>("BlurOp");
                     break;
+                case OperationType.DESPILL:
+                    opmat = Resources.Load<Material>("DespillOp");
+                    break;
                 default:
                     opmat = Resources.Load<Material>("ChromaKeyOp");
                     break;
@@ -172,7 +175,8 @@ namespace bosqmode.ChromaKeyTool
     {
         CHROMA_KEY,
         ERODE_ALPHA,
-        BLUR_ALPHA
+        BLUR_ALPHA,
+        DESPILL
     }
 
     public enum ErodeAmount
